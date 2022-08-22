@@ -1,5 +1,5 @@
 body {
-	background-color: #085D0E;
+	background-color: #ffffff;
 	overflow: scroll;
 	margin: 0px;
 }
@@ -23,7 +23,7 @@ p {
 	width: 100%;
 	bottom: 0px;
 	left: 0px;
-	padding-top: 120px;
+	padding-top: 105px;
 }
 .mainpage #page1 {
 	padding-top: 50px;
@@ -62,16 +62,14 @@ p {
 	width: 100%;
 	bottom: 0px;
 }
+#navbar {
+	position: fixed;
+	width: 100%;
+	background-color: #797D89;
+}
 #navbar #name {
 	font-family: 'Bebas Neue';
 	text-align: center;
 	font-size: 60px;
-	margin: 22px;
-}
-#navbar {
-	position: fixed;
-	width: 100%;
-	background-color: white;
-	top: 0px;
-	left: 0px;
+	margin: 11px;
 }
