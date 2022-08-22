@@ -1,0 +1,77 @@
+body {
+	background-color: #085D0E;
+	overflow: scroll;
+	margin: 0px;
+}
+h2 {
+	font-family: 'Bebas Neue';
+	font-size: 80px;
+	text-align: center;
+	margin-top: 160px;
+	margin-bottom: 60px;
+	text-shadow: 6px 6px #ffffff;
+}
+p {
+	font-family: "Varela Round";
+	text-align: center;
+	font-size: 20px;
+	padding-top: 100px;
+	text-shadow: 2px 2px #000000;
+	color: white;
+}
+.mainpage {
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 120px;
+}
+.mainpage #page1 {
+	padding-top: 50px;
+	min-height: 800px;
+	background-image: url("https://cdn.discordapp.com/attachments/533799760549642253/1011082108330057858/IMG_6175.jpeg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-attachment: fixed;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.mainpage #page2 {
+	padding-top: 50px;
+	min-height: 700px;
+	background-image: url("https://cdn.discordapp.com/attachments/533799760549642253/1011106158007820299/IMG_6176.JPG");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.mainpage #page3 {
+	padding-top: 50px;
+	min-height: 700px;
+	background-image: url("https://i.imgflip.com/31mg00.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	bottom: 0px;
+}
+#navbar #name {
+	font-family: 'Bebas Neue';
+	text-align: center;
+	font-size: 60px;
+	margin: 22px;
+}
+#navbar {
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	top: 0px;
+	left: 0px;
+}
