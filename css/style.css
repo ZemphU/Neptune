@@ -26,36 +26,68 @@ p {
 	padding-top: 105px;
 	min-height: 300%;
 }
-.mainpage #page1 {
-	padding-top: 50px;
-	height: 100vh;
-	background-image: url("https://cdn.discordapp.com/attachments/533799760549642253/1011082108330057858/IMG_6175.jpeg");
-	background-attachment: fixed;
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
+@media screen and (max-width: 1200px) {
+   .mainpage #page1 {
+		padding-top: 50px;
+		height: 100vh;
+		background-image: url("https://cdn.discordapp.com/attachments/533799760549642253/1011082108330057858/IMG_6175.jpeg");
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+   }
+   .mainpage #page2 {
+		padding-top: 50px;
+		height: 100vh;
+		background-image: url("https://cdn.discordapp.com/attachments/533799760549642253/1011106158007820299/IMG_6176.JPG");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+	}
+	.mainpage #page3 {
+		padding-top: 50px;
+		height: 100vh;
+		background-image: url("https://i.imgflip.com/31mg00.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		bottom: 0px;
+	}
 }
-.mainpage #page2 {
-	padding-top: 50px;
-	height: 100vh;
-	background-image: url("https://cdn.discordapp.com/attachments/533799760549642253/1011106158007820299/IMG_6176.JPG");
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-}
-.mainpage #page3 {
-	padding-top: 50px;
-	height: 100vh;
-	background-image: url("https://i.imgflip.com/31mg00.jpg");
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	bottom: 0px;
+@media screen and (min-width: 1201px) {
+	.mainpage #page1 {
+		padding-top: 50px;
+		height: 100vh;
+		background-image: url("https://cdn.discordapp.com/attachments/533799760549642253/1011082108330057858/IMG_6175.jpeg");
+		background-attachment: fixed;
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+	}
+	.mainpage #page2 {
+		padding-top: 50px;
+		height: 100vh;
+		background-image: url("https://cdn.discordapp.com/attachments/533799760549642253/1011106158007820299/IMG_6176.JPG");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+	}
+	.mainpage #page3 {
+		padding-top: 50px;
+		height: 100vh;
+		background-image: url("https://i.imgflip.com/31mg00.jpg");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		bottom: 0px;
+	}
 }
 #textcon {
 	position: center;
