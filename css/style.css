@@ -96,10 +96,29 @@ p {
 	position: fixed;
 	width: 100%;
 	background-color: #797D89;
+	border-top: 5px;
+	border-bottom: 5px;
+	border-color: black;
+	border-style: solid;
 }
 #navbar #name {
 	font-family: 'Bebas Neue';
 	text-align: center;
 	font-size: 60px;
-	margin: 11px;
+	margin: 6px;
+}
+#comingsoon {
+	width: 100%;
+	background-color: #797D89;
+	height: 50px;
+	border-top: 5px;
+	border-color: black;
+	border-style: solid;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 0px;
+}
+#comingsoon p {
+	padding-top: 12px;
+	margin: 0px;
 }
