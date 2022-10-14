@@ -1,0 +1,113 @@
+html {
+	height: 100%;
+}
+body {
+	overflow: scroll;
+	margin: 0px;
+	height: 100%;
+}
+h2 {
+	font-family: 'Share Tech';
+	font-size: 30px;
+}
+p {
+	font-family: "Varela Round";
+	text-align: left;
+	font-size: 20px;
+	padding-left: 7%;
+	padding-top: 20px;
+	text-shadow: 2px 2px #000000;
+	color: white;
+	width: 60%;
+}
+.one {
+	z-index: 0;
+}
+.two {
+	z-index: -1;
+}
+.three {
+	z-index: -2;
+}
+.four {
+	z-index: -3;
+}
+.five {
+	z-index: -4;
+}
+.img-wrapper {
+	position: fixed;
+	position: center;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+.img-wrapper div {
+	position: fixed;
+	position: center;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: var(--gray);
+	transition: opacity 0.1s;
+}
+.pv-block {
+	width: 100%;
+	height: 100%;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.space {
+	height: 10%;
+}
+#one{
+	padding-bottom: 450px;
+}
+#navbar {
+	background-color: #504AE3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	width: 100%;
+	border: 0px;
+	border-bottom: 1px;
+	border-color: black;
+	border-style: solid;
+}
+#main {
+	padding-top: 0;
+	border: 0;
+	margin: 0;
+	width: 100%;
+}
+#title {
+	padding-left: 5%;
+	margin: 0;
+	width: 40%;
+	background-color: white;
+}
+#about {
+	display: block;
+	float: left;
+	position: relative;
+	text-align: left;
+	margin:0px;
+	left: 40px;
+}
+#calendar {
+	display: block;
+	position: relative;
+	text-align: right;
+	margin: 0px;
+	right: 30px;
+}
+#navbar h1 {
+	display: block;
+	font-family: 'Share Tech';
+	text-align: center;
+	float: top center;
+	font-size: 50px;
+	margin: 6px;
+}
