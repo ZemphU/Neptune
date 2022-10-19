@@ -62,15 +62,13 @@ p {
 .space {
 	height: 10%;
 }
-#one{
-	padding-bottom: 450px;
-}
 #navbar {
 	background-color: #504AE3;
     display: flex;
     justify-content: space-between;
     align-items: center;
 	width: 100%;
+	height: 7%;
 	border: 0px;
 	border-bottom: 1px;
 	border-color: black;
@@ -103,11 +101,17 @@ p {
 	margin: 0px;
 	right: 30px;
 }
+#navbar h2 {
+	display: block;
+	font-family: 'Share Tech';
+	text-align: center;
+	float: top center;
+	font-size: 100%;
+}
 #navbar h1 {
 	display: block;
 	font-family: 'Share Tech';
 	text-align: center;
 	float: top center;
-	font-size: 50px;
-	margin: 6px;
+	font-size: 150%;
 }
