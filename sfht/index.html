@@ -6,93 +6,34 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 		<link rel = "icon" href="./logo.png" type="image/x-icon">
-		<link href="css/parallax-vanilla.css" />
-		<script src="js/parallax-vanilla.js"></script>
 	<head/>
+	<header id="navbar">
+		<h2 id="about">About</h2>
+		<h1>Students for Humane Technology</h1>
+		<h2 id= "calendar">Calendar</h2>
+	</header>
 	<body>
-		<div class="img-wrapper">
-			<div class="one" style="background-image: url(./img/train-gb539577f6_1920.jpg);"></div>
-			<div class="two" style="background-image: url(./img/strike-g8db72c7fd_1920.jpg);"></div>
-			<div class="three" style="background-image: url(./img/landscape-gd6b227fe9_1920.jpg);"></div>
-			<div class="four" style="background-image: url(./img/woman-5779323_1920.jpg);"></div>
-			<div class="five" style="background-image: url(./img/train-gb539577f6_1920.jpg);"></div>
-			<script>
-				window.addEventListener("scroll", () => {
-				const currentScroll = window.pageYOffset;
-				if (currentScroll <= 200) {
-					opacity = 1 - currentScroll / 200;
-				} else {
-					opacity = 0;
-				}
-				document.querySelector(".one").style.opacity = opacity;
-				});
-				
-				window.addEventListener("scroll", () => {
-				const currentScroll = window.pageYOffset;
-				if (currentScroll <= 800) {
-					opacity = 1;
-				} else if (currentScroll <= 1000) {
-					opacity = 1 - (currentScroll - 800) / 200;
-				} else {
-					opacity = 0;
-				}
-				document.querySelector(".two").style.opacity = opacity;
-				});
-				
-				window.addEventListener("scroll", () => {
-				const currentScroll = window.pageYOffset;
-				if (currentScroll <= 1600) {
-					opacity = 1;
-				} else if (currentScroll <= 1800) {
-					opacity = 1 - (currentScroll - 1600) / 200;
-				} else {
-					opacity = 0;
-				}
-				document.querySelector(".three").style.opacity = opacity;
-				});
-				
-				window.addEventListener("scroll", () => {
-				const currentScroll = window.pageYOffset;
-				if (currentScroll <= 2200) {
-					opacity = 1;
-				} else if (currentScroll <= 2400) {
-					opacity = 1 - (currentScroll - 2200) / 200;
-				} else {
-					opacity = 0;
-				}
-				document.querySelector(".four").style.opacity = opacity;
-				});
-
-			</script>
-		</div>
-		<header id="navbar">
-			<h2 id="about">About</h2>
-			<h1>Students for Humane Technology</h1>
-			<h2 id= "calendar">Calendar</h2>
-		</header>
 		<div id="main">
-			<div class="pv-container" id="one">
-				<div class='space'></div>
-				<h2 id="title">The new social movement</h2>
+			<div id="one">
+				<h2 class="page" id="title">The new social movement</h2>
 				<p>As the youth, we have been disproportionately affected by the attention-based business models of the largest tech companies. We've had enough.</p>
 			</div>
-			<div class="pv-block" id="two">
+			<div class="page" id="two">
 				<h2 id="title">Power in numbers</h2>
-				<p>Really, we work for social media companies by giving them our time, attention, and information — but all we get in return? Mental illness and instability on a societal scale. Just like the powerful labor movements of the 20th century, we aim to influence social media through organized boycotts, public pressure, and signal-boosting safer alternatives.</p>
+				<p>Really, we work for social media companies by giving them our time, attention, and information — but all we get in return is mental illness and instability. Just like the powerful labor movements of the 20th century, we aim to influence social media through organized boycotts, public pressure, and signal boosting of safer alternatives.</p>
 			</div>
-			<div class="pv-block" id="three">
+			<div class="page" id="three">
 				<h2 id="title">Real choices for real people</h2>
 				<p>We are claiming back our agency by working together. Is there a specific website or app that is taking away your time? <a href="">Here</a> is a community of people with the exact same goals.</p>
 			</div>
-			<div class="pv-block" id="four">
+			<div class="page" id="four">
 				<h2 id="title">Blue skies</h2>
 				<p>As much as it has so far been used against us, technology can be used for good. By bringing these issues into the public eye on campus and beyond, we're working towards a future where technlogy works for students' — and humanity's — best interests.</p>
 			</div>
-			<div class="pv-block" id="five">
+			<div class="page" id="five">
 				<h2 id="title">Interested?</h2>
-				<p>UCF students can join the club through this simple form: <a></a></p>
+				<p>UCF students can join the club through this simple form: <a></a> We're working</p>
 			</div>
 		</div>
-		
 	</body>
 </html>
