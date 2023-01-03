@@ -32,6 +32,10 @@ const intersectionCallback5 = (entries) => {
 }			
 let obs5 = new IntersectionObserver(intersectionCallback5, { threshold: [0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1] });
 obs5.observe(document.querySelector("#five"));
+
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
 			
 /*			
 window.addEventListener("scroll", () => {
