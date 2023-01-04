@@ -33,7 +33,7 @@ ul {
 }
 li {
 	font-family: "Varela Round";
-	width: calc(96% / 7);
+	width: calc((100% / 7) - 2px);
 	border: 1px solid LightGrey;
 	border-collapse: collapse;
 	vertical-align: top;
@@ -47,7 +47,10 @@ a:hover {
 	height: 100%;
 }
 .days li {
-	height: calc(100%/5);
+	height: calc((100% / 5) - 2px);
+}
+.white {
+	background-color: white;
 }
 .gray {
 	background-color: Gray;
