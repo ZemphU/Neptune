@@ -22,7 +22,7 @@ const renderCalendar = () => {
 	
 	
 	for(let i = 1; i <= lastDateofMonth; i++) {
-		liTag += `<li>${i}</li>`;
+		liTag += `<li class="white">${i}</li>`;
 	}
 	
 	for(let i = 1; i <= 7 - firstDayofNextMonth && firstDayofNextMonth != 0; i++) {
