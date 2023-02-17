@@ -1,0 +1,141 @@
+html {
+	height: 100%;
+}
+body {
+	overflow: scroll;
+	margin: 0px;
+	height: 100%;
+}
+h2 {
+	font-family: 'Share Tech';
+	font-size: 30px;
+}
+p {
+	font-family: "Varela Round";
+	text-align: left;
+	font-size: 20px;
+	padding: 7%;
+	padding-top: 20px;
+	text-shadow: 2px 2px black;
+	color: white;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+	color: LightGrey;
+}
+.one {
+	z-index: 0;
+}
+.two {
+	z-index: -1;
+}
+.three {
+	z-index: -2;
+}
+.four {
+	z-index: -3;
+}
+.five {
+	z-index: -4;
+}
+.img-wrapper {
+	position: fixed;
+	height: 100vh;
+	height: calc(var(--vh, 1vh) * 100);
+	width: 100vw;
+	top: 0;
+	z-index: -1;
+}
+.img-wrapper div {
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: var(--gray);
+	transition: opacity 0.1s;
+}
+.pv-block {
+	width: 100vw;
+	height: 100vh;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.space {
+	height: 10%;
+}
+#navbar {
+	background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	width: 100%;
+	height: 7%;
+	border: 0px;
+	border-bottom: 1px;
+	border-color: black;
+	border-style: solid;
+}
+#main {
+	padding-top: 0;
+	border: 0;
+	margin: 0;
+	width: 100%;
+}
+@media screen and (max-width: 1200px) {
+	#title {
+		padding-left: 5%;
+		margin: 0;
+		width: 100%;
+		background-color: white;
+	}
+	p {	
+		width: 86%;
+	}
+}
+@media screen and (min-width: 1201px) {
+	#title {
+		padding-left: 5%;
+		margin: 0;
+		width: 40%;
+		background-color: white;
+	}
+	p {	
+		width: 60%;
+	}
+}
+#about {
+	display: block;
+	float: left;
+	position: relative;
+	margin:0px;
+	left: 30px;
+}
+#calendar {
+	display: block;
+	position: relative;
+	margin: 0px;
+	right: 30px;
+	width: 55px;
+}
+#navbar h2 {
+	display: block;
+	font-family: 'Share Tech';
+	text-align: center;
+	float: top center;
+	font-size: 100%;
+	width: 55px;
+}
+#navbar h1 {
+	display: block;
+	font-family: 'Share Tech';
+	text-align: center;
+	float: top center;
+	font-size: 150%;
+}
