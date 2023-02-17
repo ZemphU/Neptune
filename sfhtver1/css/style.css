@@ -97,7 +97,7 @@ a:hover {
 		width: 40%;
 		border: 1px solid black;
 	}
-	#two {
+	/*#two {
 		position: absolute;
 		right: 0;
 	}
@@ -112,7 +112,7 @@ a:hover {
 	#four #title {
 		width: 95%;
 		right: 5%;
-	}
+	}*/
 }
 #title {
 	padding-left: 5%;
