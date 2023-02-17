@@ -19,10 +19,14 @@ p {
 	padding-left: 8%;
 	padding-top: 4%;
 	color: black;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 a {
 	text-decoration: none;
 	color: #E1341E;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 a:hover {
 	text-decoration: none;

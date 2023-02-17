@@ -19,10 +19,14 @@ p {
 	padding-left: 8%;
 	padding-top: 4%;
 	color: black;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 a {
 	text-decoration: none;
 	color: #E1341E;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 a:hover {
 	text-decoration: none;
@@ -93,7 +97,7 @@ a:hover {
 		width: 40%;
 		border: 1px solid black;
 	}
-	/*#two {
+	#two {
 		position: absolute;
 		right: 0;
 	}
@@ -109,7 +113,6 @@ a:hover {
 		width: 95%;
 		right: 5%;
 	}
-	*/
 }
 #title {
 	padding-left: 5%;
