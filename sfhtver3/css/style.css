@@ -3,7 +3,7 @@ html {
 }
 body {
 	overflow: scroll;
-	background-color: black;
+	background-color: white;
 	margin: 0px;
 	height: 100%;
 }
@@ -31,39 +31,6 @@ a {
 a:hover {
 	text-decoration: none;
 	color: LightGrey;
-}
-.one {
-	z-index: 0;
-}
-.two {
-	z-index: -1;
-}
-.three {
-	z-index: -2;
-}
-.four {
-	z-index: -3;
-}
-.five {
-	z-index: -4;
-}
-.img-wrapper {
-	position: fixed;
-	height: 100%;
-	width: 100%;
-	top: 0;
-	z-index: -1;
-}
-.img-wrapper div {
-	position: fixed;
-	height: 100%;
-	width: 100%;
-	top: 0;
-	background-size: cover;
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-color: var(--gray);
-	transition: opacity 0.1s;
 }
 .pv-block {
 	width: 100%;
@@ -139,14 +106,15 @@ a:hover {
 	float: left;
 	position: relative;
 	margin:0px;
-	left: 30px;
+	padding-right: 10px;
+	left: 5%;
 }
 #calendar {
 	display: block;
 	position: relative;
 	margin: 0px;
-	right: 30px;
-	width: 55px;
+	padding-left: 10px;
+	right: 5%;
 }
 #navbar h2 {
 	display: block;
